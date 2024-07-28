@@ -1,0 +1,1905 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Playwrite+CZ:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+CU:wght@100..400&family=Playwrite+CZ:wght@100..400&display=swap');
+
+
+
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #000;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+    padding:0 1rem;
+
+}
+
+
+.na >.al{
+    display: flex;
+    gap: 5rem;
+   
+   
+}
+
+
+
+.na .al >a,li{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+ 
+    
+}
+
+
+.na .mt >h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #ff5733;
+    font-style: italic;
+
+}
+
+.na .al a >li{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+ 
+    
+}
+
+.na >.al{
+   border: 1px solid;
+   padding: 0.1%;
+   border-radius: 4rem;
+
+   
+    
+    
+}
+
+
+.al >.ho{
+    background-color: #ff5733;
+    color: #fff;
+    border: 1px solid #ff5733;
+   
+}
+
+.al a {
+    color: #fff;
+    padding: 0.6rem 1.5rem;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.al a:hover {
+    background-color: #ff5733;
+    color: #fff;
+}
+
+
+
+.icon{
+    display: none;
+    color: white;
+}
+
+
+
+@media (max-width: 576px){
+
+
+    .na >.al{
+        display: none;
+
+    }
+
+
+    .icon{
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+        color: white;
+
+    }
+
+}
+
+
+
+
+/* main */
+
+
+.mata{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(45,43,43,1) 40%, rgba(62,57,57,1) 54%, rgba(0,0,0,1) 100%);
+
+}
+
+
+
+
+
+.ma .in .arkoto >p{
+ font-weight:900;
+ font-size: 5rem;
+ color: white;
+}
+
+
+.ma .in p{
+    font-weight:400;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.65);
+   }
+
+
+
+   .ma .in a button{
+    padding: 1.5rem 2rem;
+    border-radius: 2.8rem ;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+   }
+
+
+   .ma .in a .bt{
+    background-color: #e6533c;
+    color: white;
+    border: none;
+   }
+
+
+
+   .ma .in a .btn{
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    background-color: #000;
+
+   }
+
+
+   .ma{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 22rem;
+   } 
+
+   .ma .in .sp{
+    font-family: "Playwrite CU";
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+.cai{
+    background-image: url(images.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 40rem;
+    position: relative;
+}
+
+
+
+
+
+.bol{
+    width: 45%;
+    height: 16%;
+    border: 1px solid;
+    margin-bottom: 200px;
+    padding: 0.2rem 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 15px;
+    position: absolute;
+    top: 220px;
+    left: 300px;
+    background-color: rgba(57, 57, 57, 0.8);
+    
+    
+}
+
+
+
+/* .bol .bol .faib */
+
+
+
+
+
+.butt{
+    width: 45%;
+    height: 10%;
+    border: 1px solid;
+    margin-bottom: 200px;
+    padding: 0.2rem 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: absolute;
+    top: 500px;
+    left: -90px;
+   background-color:rgba(53, 51, 51, 0.5);
+   
+    
+    
+    
+}
+
+
+
+
+
+
+
+.cai .bol a .faib{
+    font-weight: 900;
+    font-size: 2.8;
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-top: -10px;
+    
+}
+
+.cai .bol a .free{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+    margin-top: -30px;
+}
+
+.cai .butt a div .pna{
+    font-weight: 900;
+    font-size: 2.8;
+    color: white;
+    
+}
+
+
+.cai .butt a .gol{
+    width: 40px;
+    height: 40px;
+    background-color: #ff5722;
+    border-radius: 50%;
+}
+
+
+.cai .butt a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.cai .butt a .naci{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+    
+}
+
+
+.cai .butt a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+
+
+
+
+.cai .bol a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width: 576px){
+    .ma{
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+        margin: 0;
+        width: fit-content;
+        height: fit-content;
+    }
+
+
+    .mata{
+        width: fit-content;
+        height: fit-content;
+        padding: 0  28px;
+    }
+
+
+
+
+    .ma{
+        width: ;
+        height: ;
+        gap: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .bol,.butt{
+        gap: 0;
+     width: 50%;
+     
+        
+    }
+
+
+    .butt{
+        gap: 0;
+     width: 50%;
+     margin-left: 100px;
+     
+        
+    }
+    
+
+
+    .ma .in .bulgeya{
+        display: flex;
+        gap: 15px;
+
+    }
+
+    
+
+    .ma .in a button{
+       
+       }
+
+
+
+     .bol{
+        position: absolute;
+        top: 200px;
+        left: -1px;
+       
+     
+        
+    }
+
+
+}
+
+
+
+/* radios-pic */
+
+
+.mov{
+    width: 100%;
+    height:100%;
+    margin-top: 150px;
+}
+
+
+.mov  >h1{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 3.5rem;
+    margin-bottom: 14px;
+}
+
+.mov  >p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 58px;
+}
+
+
+
+
+
+.mov img{
+    border-radius:10rem;
+}
+
+
+
+.mov .fg{
+    text-align: center;
+    margin: 10px;
+}
+
+
+.mov .fg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 100px;
+
+}
+
+
+.mov .fg .pi >h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+}
+
+
+.mov .fg .pi >p{
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+
+
+@media (max-width: 576px){
+    .mov .fg{
+    flex-direction: column;
+      
+        
+    }
+
+}
+
+
+
+
+/* card */
+
+
+
+.card{
+    width: 80%;
+    height: 100%;
+    margin: 100px auto;
+   
+    
+
+    
+}
+
+
+.ca{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   padding: 30px;
+   background-color: rgb(34, 34, 34);
+   border-radius: 1.5rem;
+}
+
+
+.ca .dor{
+    background-image: url(run.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+   
+
+}
+
+
+.ca .dor{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
+
+.ca .prit >.gartera{
+text-align: start;
+  color: white;
+  font-weight: 900;
+  font-size: 3.2rem;
+
+}
+
+
+.ca .prit >.gar-tera{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 24px;
+    
+    }
+
+
+
+
+
+.card .ca a .bon{
+    background-color: #e6533c;
+    color: white;
+    padding: 1.3rem 4rem;
+    border-radius: 2.8rem ;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: navajowhite;
+   }
+
+
+
+
+
+
+
+
+   @media (max-width: 576px){
+
+    .ca{
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     
+    }
+
+
+
+   .card{
+    width: fit-content;
+    height: fit-content;
+    width: calc((100% + 38px));
+   }
+    
+
+    .ca .dor{
+        background-size: cover;
+        background-position: center;
+        width: calc((100% + 2px));
+        margin: 0 10px;
+    
+    }
+
+    .ca .dor{
+        margin-top: 15px;
+    }
+
+
+    .ca .prit >.gar-tera{
+        margin-left: -0px;
+    }
+
+    .card .ca a .bon{
+        margin-left: -0px;
+    }
+
+   }
+
+
+   /* grid */
+
+
+
+
+   .gt{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 88px;
+   }
+
+
+   .gt >h1{
+    font-weight: 900;
+    font-size: 3.2rem;
+    display: flex;
+    justify-content: flex-start;
+   }
+
+
+   .gt >.deat{
+    font-weight: 400;
+    font-size: 0.9;
+    text-align: start;
+    color: rgba(255, 255, 255, 0.5);
+   }
+
+
+
+
+   .gt >h1,p{
+    text-align: start;
+    color: white;
+    
+   }
+
+   .gt >p{
+    text-align: start;
+    color: white;
+    
+   }
+
+
+
+
+
+
+   .pra >.prodan{
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+ 
+
+   }
+
+
+   
+   .pra >.secand{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: -4px;
+    
+        
+       
+
+   }
+
+
+/* 1 */
+
+
+
+
+
+.pra .prodan >.pro{
+   background-image: url(katal.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: rgb(81, 145, 145);
+   background-blend-mode: overlay;
+   background-position: center;
+   width:500px;
+   height:250px;
+
+}
+
+.pra .prodan .pro .prodan-wan >p{
+    font-size: 0.9rem;
+    font-weight: 500;
+   }
+
+
+
+   .pra .prodan .pro{
+    position: relative;
+
+   } 
+
+
+
+
+   .pra .prodan .pro .prodan-wan{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    color: white;
+
+
+   } 
+
+
+   /* 2 */
+
+
+   .pra .prodan .sec{
+    position: relative;
+    background-color: rgb(143, 64, 64);
+    background-image: url(anaros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+    width: 600px;
+    height: 250px;
+
+   } 
+
+
+
+   .pra .prodan .sec .sec-tu >p{
+    font-size: 0.9rem;
+    font-weight: 500;
+   }
+
+
+   .pra .prodan .sec .sec-tu{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: white;
+
+   } 
+
+
+/* 3 */
+
+
+.pra .prodan .tahrd{
+    position: relative;
+    background-color: rgb(83, 73, 73);
+    background-image: url(kola.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+    width: 497px;
+    height: 250px;
+
+
+   } 
+
+
+ 
+   .pra .prodan .tahrd .tahrd-tri >p{
+    font-size: 0.9rem;
+    font-weight: 500;
+   }
+
+
+
+
+
+
+   .pra .prodan .tahrd .tahrd-tri{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    color: white;
+
+   } 
+
+
+
+
+   /* 4 */
+
+
+   .pra .secand >.fortin{
+    position: relative;
+    background-color: rgb(66, 55, 55);
+    background-image: url(lebu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+    width: 500px;
+    height: 250px;
+
+   } 
+
+
+
+
+   .pra .secand .fortin .secand-2 >p{
+    font-size: 0.9rem;
+    font-weight: 500;
+   }
+
+
+
+   .pra .secand .fortin >.secand-2{
+    position: absolute;
+    text-align: end;
+    top: 30px;
+    left: 280px;
+    color: white;
+    
+    
+
+
+   } 
+
+
+/* 5 */
+
+
+.pra .secand >.fib-tin{
+    position: relative;
+    background-color: rgb(167, 204, 130);
+    background-image: url(komola.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+    width: 510px;
+    height: 250px;
+
+   } 
+
+
+   .pra .secand .fib-tin .fib-5 >p{
+    font-size: 0.9rem;
+    font-weight: 500;
+   }
+
+
+
+   
+
+   .pra .secand .fib-tin >.fib-5{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    color: white;
+
+   } 
+
+
+
+
+   /* 6 */
+   
+
+
+   
+
+
+   .pra .secand >.six-tin{
+    position: relative;
+    background-color: rgb(131, 179, 196);
+    background-image: url(dalim.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+    width: 510px;
+    height: 250px;
+
+   } 
+
+   
+
+   .pra .secand .six-tin .six-10 >p{
+    font-size: 0.9rem;
+    font-weight: 500;
+   }
+
+
+
+
+   .pra .secand .six-tin >.six-10{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    color: white;
+
+   } 
+
+ 
+
+   @media (max-width: 576px){
+    .gt{
+        width: calc((100% + 40px));
+    }
+
+  /* 1 */
+
+  .pra .prodan >.pro{
+    background-size: cover;
+  }
+
+    /* 2 */
+    
+    .pra .prodan .sec{
+        background-size: cover;
+    }
+
+ 
+
+
+    /* 3 */
+    .pra .prodan .tahrd{
+        background-size: cover;
+    }
+
+
+     /* 4 */
+
+     .pra .secand >.fortin{
+        background-size: cover;
+     }
+
+    
+
+
+     /* 5 */
+
+     .pra .secand >.fib-tin{
+        background-size: cover;
+     }
+
+
+
+    /* 6 */
+
+
+    .pra .secand >.six-tin{
+        background-size: cover;
+    }
+
+
+
+    /* 7 */
+
+    .pra .secand >.fortin{
+        background-size: cover;
+
+    }
+
+   }
+
+
+
+/* text */
+
+
+
+.modom{
+    margin-bottom: 88px;
+    margin-left: 400px;
+    
+}
+
+.modom .jat-kharap{
+    margin-bottom:-2px ;
+}
+
+.modom .jat-kharap{
+    font-weight: 900;
+    font-size: 3.2rem;
+    color: white;
+
+}
+
+
+
+.modom p{
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+
+@media (max-width: 576px){
+    .modom{
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+}
+
+
+
+
+ /* input */
+
+
+ .pro-tbl-1{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(34, 34, 34); 
+
+}
+
+
+
+.pro-tbl-1 .container >.bmi-chart{
+    width:25%;
+    height: 420px;
+
+}
+
+
+ .pro-tbl-1 .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+   
+}
+
+
+.container .bmi-chart >h1{
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    
+   
+}
+
+
+
+.container .bmi-chart table tr >th{
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+   
+}
+
+
+
+.container .bmi-chart table tr >td{
+   padding: 15px 10px;
+     
+  }
+
+
+  .container .bmi-chart table tr >th{
+     color: #fff;
+    padding: 15px 10px;
+      
+   }
+
+
+   .container >.calculator {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 1rem;
+    
+    
+}
+
+
+.container >.bmi-chart{
+    background-color: #222;
+    padding: 20px;
+    border-radius: 1rem;
+    
+}
+
+table,td,th{
+    width: 100%;
+    border: 1px solid #333;
+    border-collapse: collapse; 
+    
+    
+}
+
+
+
+
+table tr >td{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 400;
+    font-size: 0.9rem;
+    font-family: "Inter", sans-serif;
+  
+    
+}
+
+
+
+table th{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+
+table td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+
+
+
+.container .calculator >form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* input, select */
+.container .calculator form div >select{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    
+}
+
+
+.container .calculator form >.commi{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    
+}
+
+
+
+
+
+
+.container button{
+    background-color: #ff5722;
+    color: #fff;
+    padding: 20px 70px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 34px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+
+select option[disabled] {
+    display: none;
+  }
+  
+  .boyos select {
+    color: gray; /* Placeholder color */
+  }
+  
+
+
+  .container .calculator form >.inp-pro{
+    display: flex;
+    gap: 12px;
+    
+  }
+
+  .inp-pro div >input{
+      width: 95%;
+      height: 38px;
+  }
+
+
+
+  .inp-pro div >select{
+    width: 295%;
+    height: 53px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.calculator form >.commi{
+    height: 60px;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 91%;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
+
+
+
+.calculator h2{
+    font-weight: 900;
+    font-size: 2rem;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+.calculator p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    
+}
+
+
+
+.calculator form div >input{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    
+}
+
+
+
+.calculator form div select >option{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.bmi-chart, .calculator {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+    .pro-tbl-1 >.container{  
+      display: flex; 
+      flex-direction: column; 
+      justify-content: space-between;
+      align-items: center;
+      margin: 0;
+      padding: 0 ;
+    }
+
+    .pro-tbl-1 .container {
+        width: 430px;
+        margin-left: -28px;
+     
+        /* padding:0 65px; */
+       
+    }
+
+
+    .pro-tbl-1{
+        width: fit-content;
+        height: fit-content;
+        
+    } 
+
+
+
+    .container .bmi-chart >h1{
+        text-align: start;
+    }
+
+
+
+    .pro-tbl-1{
+        margin-left: 40px;
+    }
+
+    .pro-tbl-1 .container >.bmi-chart{
+        width:95%;
+        height: 100%;
+        border-radius: 5px;
+    
+    }
+
+     
+
+    .pro-tbl-1 .container .calculator{
+        width:95%;
+        height: 100%;
+        border-radius: 5px;
+    
+    }
+
+
+
+    .inp-pro div >select{
+        width:105%;
+
+    }
+
+
+    .calculator form >.commi{
+        height: 60px;
+        width: 103%;
+    }
+    
+  
+  }
+
+
+
+
+
+
+/*pic-- flex */
+
+
+.master{
+    width: 80%;
+    height: 100%;
+    margin: 100px auto;
+    padding: 15px;
+   
+}
+
+
+
+
+
+.master .mit >p,h1{
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.master .mit >h1{
+    font-size: 3.2rem;
+    font-weight: 900;
+}
+
+
+.master .mit >p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+   
+}
+
+
+
+.mas-pic >.wan-pic{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    
+    
+
+}
+
+
+.mas-pic .wan-pic .pic-1 .cail-pic-1 >h1{
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: -12px;
+}
+
+
+
+.mas-pic .wan-pic .pic-1 .cail-pic-1 >p{
+    font-weight: 400;
+    font-size: 0.9;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+.mas-pic >.tu-pic{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+   
+}
+
+.master .mas-pic .wan-pic .pic-1{
+      width: 100%;
+      height: 300px;
+      background-image: url(bezi.png);
+      background-size: cover;
+      border-radius: 1.2rem;
+}
+
+
+.master .mas-pic .wan-pic .pic-1{
+    position: relative;
+}
+
+
+
+.master .mas-pic .wan-pic .pic-1 .cail-pic-1{
+    position: absolute;
+    top: 195px;
+    left: 20px;
+
+}
+
+
+.master .mas-pic .wan-pic .pic-2{
+    width: 100%;
+    height: 300px;
+    background-image: url(iedur.png);
+    background-size: cover;
+    border-radius: 1.2rem;
+   
+}
+
+
+
+.master .mas-pic .wan-pic .pic-2{
+    position: relative;
+}
+
+
+
+.master .mas-pic .wan-pic .pic-2 .cail-pic-2{
+    position: absolute;
+    top: 195px;
+    left: 20px;
+
+}
+
+
+.mas-pic .wan-pic .pic-2 .cail-pic-2 >h1{
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: -12px;
+}
+
+
+
+.mas-pic .wan-pic .pic-2 .cail-pic-2 >p{
+    font-weight: 400;
+    font-size: 0.9;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+.master .mas-pic .wan-pic .pic-3{
+    width: 100%;
+    height: 300px;
+    background-image: url(tiktiki.png);
+    background-size: cover;
+    border-radius: 1.2rem;
+    
+}
+
+
+
+
+.master .mas-pic .wan-pic .pic-3{
+    position: relative;
+}
+
+
+
+.master .mas-pic .wan-pic .pic-3 .cail-pic-3{
+    position: absolute;
+    top: 195px;
+    left: 20px;
+
+}
+
+
+
+.mas-pic .wan-pic .pic-3 .cail-pic-3 >h1{
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: -12px;
+}
+
+
+
+.mas-pic .wan-pic .pic-3 .cail-pic-3 >p{
+    font-weight: 400;
+    font-size: 0.9;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+.master .mas-pic .tu-pic .pic-4{
+    width: 100%;
+    height: 300px;
+    background-image: url(cita.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1.2rem;
+   
+}
+
+
+.master .mas-pic .tu-pic .pic-4{
+    position: relative;
+}
+
+
+
+
+.master .mas-pic .tu-pic .pic-4 .cail-pic-4{
+    position: absolute;
+    top: 195px;
+    left: 20px;
+}
+
+
+
+.mas-pic .tu-pic .pic-4 .cail-pic-4 >h1{
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: -12px;
+}
+
+
+
+.mas-pic .tu-pic .pic-4 .cail-pic-4 >p{
+    font-weight: 400;
+    font-size: 0.9;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+.master .mas-pic .tu-pic .pic-5{
+    width: 100%;
+    height: 300px;
+    background-image: url(singo.png);
+    background-size: cover;
+    border-radius: 1.2rem;
+    background-position: center;
+   
+}
+
+
+.master .mas-pic .tu-pic .pic-5{
+    position: relative;
+}
+
+
+
+
+.master .mas-pic .tu-pic .pic-5 .cail-pic-5{
+    position: absolute;
+    top: 195px;
+    left: 20px;
+}
+
+
+
+.mas-pic .tu-pic .pic-5 .cail-pic-5 >h1{
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: -12px;
+}
+
+
+
+.mas-pic .tu-pic .pic-5 .cail-pic-5>p{
+    font-weight: 400;
+    font-size: 0.9;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+
+.master .mas-pic .tu-pic .pic-6{
+    width: 100%;
+    height: 300px;
+    background-image: url(bag.png);
+    background-size: cover;
+    border-radius: 1.2rem;
+   
+}
+
+
+.master .mas-pic .tu-pic .pic-6{
+    position: relative;
+}
+
+
+
+
+.master .mas-pic .tu-pic .pic-6 .cail-pic-6{
+    position: absolute;
+    top: 195px;
+    left: 20px;
+}
+
+
+
+
+
+.mas-pic .tu-pic .pic-6 .cail-pic-6 >h1{
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: -12px;
+}
+
+
+
+.mas-pic .tu-pic .pic-6 .cail-pic-6 >p{
+    font-weight: 400;
+    font-size: 0.9;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+
+
+@media (max-width: 576px){
+
+    .mas-pic >.wan-pic{
+        flex-direction: column;
+        border-radius: 1.2rem;
+        justify-content: space-evenly;
+        align-items: center;
+       
+       
+    }
+
+   
+
+
+    .mas-pic >.tu-pic{
+        flex-direction: column;
+        border-radius: 1.2rem;
+        margin: 20px;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .master .mas-pic .tu-pic .pic-4{
+        width: 100%;
+        height: 300px;
+        background-image: url(cita.png);
+        background-size: cover;
+        border-radius: 1.2rem;
+        width: calc((100% + 40px)) ;
+       
+    }
+    
+
+    .master .mas-pic .tu-pic .pic-5{
+        width: 100%;
+        height: 300px;
+        background-image: url(singo.png);
+        background-size: cover;
+        border-radius: 1.2rem;
+        width: calc((100% + 40px)) ;
+       
+    }
+
+
+
+    .master .mas-pic .tu-pic .pic-6{
+        width: 100%;
+        height: 300px;
+        background-image: url(bag.png);
+        background-size: cover;
+        border-radius: 1.2rem;
+        width: calc((100% + 40px)) ;
+       
+    }
+
+    
+
+    .master{
+        width: 100%;
+        height: 100%;
+        margin: 100px auto;
+        width: calc((100% + 10px));
+       
+    }
+
+
+
+
+
+}
+
+
+/* fotter */
+
+
+
+.futica{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+.pran-2 .awal >h2{
+    font-size: 4.9rem;
+    font-weight: 800;
+    color: rgba(230, 83, 60, 1);
+    font-style: italic;
+   
+}
+
+
+.pran-2 .awal >p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -40px;
+}
+
+
+.pran-2 .sani >h3{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+
+.pran-2 .sani >p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.pran-2 .sales >h3{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+
+.pran-2 .sales >p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+.futica .pran-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 140px;
+   
+}
+
+
+
+
+@media (max-width: 576px){
+    
+    .futica .pran-2{
+        flex-direction: column;
+        gap: 0;
+        margin-left: 20px;
+        padding: 0 ;
+    }
+}
+
+
+
+
+
+
+
+
+/* nim-stol */
+
+.nim-stol{
+ 
+}
+
+
+
+.nim-stol p{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);    
+} 
+
+
+
+
+
+
+
+
+
